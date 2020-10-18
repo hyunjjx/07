@@ -5,17 +5,13 @@
 
 int main(int argc, char *argv[]) {
 
-	int flag = 1;
+	int i;
 	
-	while(flag !=0)
-	{ //y의 범위가 while함수 안에 있는거라서 
-		int y;
-	 
-		y=3;
-		flag=0; 
+	for (i=0;i<5;i++)
+	{
+		int temp=1;
+		printf("temp=%i\n",temp);
+		temp++;
 	}
-
-	y=4;
-
 	return 0;
 }
